@@ -1,0 +1,121 @@
+{ "challenges" : [ { 
+  "name" : "Crypto 1", 
+  "category" : "Final", 
+  "message" : "Find a way to view the flag. <br /><br /><a href='http://owasp.zhack.ca/crypto-1/'>Challenge</a>", 
+  "value" : 150, 
+  "key" : [ { "flag" : "FLAG-daa20609fd0e4f81a4b14ade25f98a72", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "XXE 1", 
+  "category" : "Qualification", 
+  "message" : "Find a way to view the flag in \"index.php\". <br /><br /><a href='http://owasp.zhack.ca/xxe-1/'>Challenge</a>", 
+  "value" : 200, 
+  "key" : [ { "flag" : "FLAG-4854126eef48a4c1ec2999b6a00b6a6b", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "Privilege Escalation 2", 
+  "category" : "Qualification", 
+  "message" : "Find a way to elevate your priviledge to 'admin'. Use 'sudo -l' to list your sudo permission. <br /><br />Connection : ssh challenge@owasp.zhack.ca -p 1503<br />Password : password", 
+  "value" : 100, 
+  "key" : [ { "flag" : "FLAG-9d91493202554a1b0be924f19c741dbe", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "Exploit 1", 
+  "category" : "Qualification", 
+  "message" : "Find a way to elevate your priviledge to 'admin' by exploiting the binary /home/admin/challenge (use sudo to run as admin). <br /><br />Connection : ssh challenge@owasp.zhack.ca -p 1504<br />Password : password", 
+  "value" : 200, 
+  "key" : [ { "flag" : "FLAG-d0b82ec683f845f7b4d74fec13212224", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "Upload 2", 
+  "category" : "Qualification", 
+  "message" : "Find a way to view the flag in \"index.php\". Some extra protection was added to restrict PHP file access.<br /><br /><a href='http://owasp.zhack.ca/upload-3/'>Challenge</a>", 
+  "value" : 300, 
+  "key" : [ { "flag" : "FLAG-536b912076701df7a4554773834986d1", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "Upload 1", 
+  "category" : "Qualification", 
+  "message" : "Find a way to view the flag in \"index.php\". <br /><br /><a href='http://owasp.zhack.ca/upload-1/'>Challenge</a>", 
+  "value" : 100, 
+  "key" : [ { "flag" : "FLAG-90831a06961d71bfeca38257aad7aa5c", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "Privilege Escalation 1", 
+  "category" : "Qualification", 
+  "message" : "Find a way to elevate your priviledge to 'admin'. Use 'sudo -l' to list your sudo permission. <br /><br />Connection : ssh challenge@owasp.zhack.ca -p 1507<br />Password : password", 
+  "value" : 100, 
+  "key" : [ { "flag" : "FLAG-b13886a1ff3d93049b967b10ba69b413", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "PHP Serialization 1", 
+  "category" : "Final", 
+  "message" : "Find a way to view the flag in \"secret.php\". <br /><br />Hint : \\__toString and \\__destruct are very useful magic method. <br /><br /> Hint 2 : You can use this website to generate your payload (http://sandbox.onlinephpfunctions.com/). <br /><br />  <a href='http://owasp.zhack.ca/serialization-1/'>Challenge</a>", 
+  "value" : 250, 
+  "key" : [ { "flag" : "FLAG-ddfcce4bf013e208c7dcc4f7711343a5", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "SQL Injection 1", 
+  "category" : "Qualification", 
+  "message" : "Find the flag in the database. <br /><br /><a href='http://owasp.zhack.ca/sql-1/'>Challenge</a>", 
+  "value" : 100, 
+  "key" : [ { "flag" : "FLAG-8c0f78bd9f65fb6b2d553ae30db6e612", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "Encoding 1", 
+  "category" : "Qualification", 
+  "message" : "Find a way to view the flag. <br /><br /><a href='http://owasp.zhack.ca/crypto-2/'>Challenge</a>", 
+  "value" : 100, 
+  "key" : [ { "flag" : "FLAG-297f30fc7d69b365821e5bb43ca089ec", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "Exploit 2", 
+  "category" : "Final", 
+  "message" : "Find a way to elevate your priviledge to 'admin' by exploiting the binary /home/admin/challenge (use sudo to run as admin). <br /><br />Connection : ssh challenge@owasp.zhack.ca -p 1511<br />Password : goodluckwiththefinal", 
+  "value" : 200, 
+  "key" : [ { "flag" : "FLAG-56a9e0bbffba480f855d7cff061b5556", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "RCE 1", 
+  "category" : "Qualification", 
+  "message" : "Find a way to view the flag in \"index.php\". <br /><br /><a href='http://owasp.zhack.ca/rce-1/'>Challenge</a>", 
+  "value" : 100, 
+  "key" : [ { "flag" : "FLAG-34063b7d03e40c97b860deff1c4729c0", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "SQL Injection 2", 
+  "category" : "Qualification", 
+  "message" : "Find the flag in the database. <br /><br /><a href='http://owasp.zhack.ca/sql-3/'>Challenge</a>", 
+  "value" : 300, 
+  "key" : [ { "flag" : "FLAG-9bb32a4d481848127d5ade7824037363", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "Local File Inclusion 1", 
+  "category" : "Qualification", 
+  "message" : "Find a way to view the flag in \"index.php\". <br /><br /><a href='http://owasp.zhack.ca/lfi-1/'>Challenge</a>", 
+  "value" : 100, 
+  "key" : [ { "flag" : "FLAG-61be296dafa12f88ac36a9d968fe92bf", "type" : "static" } ], 
+  "files" : [] 
+}
+,{ 
+  "name" : "Direct Object Reference 1", 
+  "category" : "Qualification", 
+  "message" : "Find a way to view the flag. <br /><br /><a href='http://owasp.zhack.ca/rdi-1/'>Challenge</a>", 
+  "value" : 100, 
+  "key" : [ { "flag" : "FLAG-5d09464c65a9c07b142c3db7c47b3b0e", "type" : "static" } ], 
+  "files" : [] 
+}
+ ] }

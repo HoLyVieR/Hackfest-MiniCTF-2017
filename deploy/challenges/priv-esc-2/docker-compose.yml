@@ -1,0 +1,4 @@
+ssh:
+  image: img_priv-esc-2
+  ports:
+    - "0.0.0.0:1503:22"

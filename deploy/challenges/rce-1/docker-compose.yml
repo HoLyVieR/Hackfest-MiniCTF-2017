@@ -1,0 +1,6 @@
+web:
+  image: img_rce-1
+  ports:
+    - "127.0.0.1:1512:80"
+  volumes:
+    - /hf17/challenges/rce-1/web/:/var/www/html

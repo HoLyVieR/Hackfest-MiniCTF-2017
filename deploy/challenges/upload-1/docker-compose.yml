@@ -1,0 +1,6 @@
+web:
+  image: img_upload-1
+  ports:
+    - "127.0.0.1:1506:80"
+  volumes:
+    - /hf17/challenges/upload-1/web/:/var/www/html

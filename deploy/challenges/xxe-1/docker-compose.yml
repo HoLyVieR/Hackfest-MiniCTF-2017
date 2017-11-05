@@ -1,0 +1,6 @@
+web:
+  image: img_xxe-1
+  ports:
+    - "127.0.0.1:1502:80"
+  volumes:
+    - /hf17/challenges/xxe-1/web/:/var/www/html

@@ -1,0 +1,6 @@
+web:
+  image: img_crypto-2
+  ports:
+    - "127.0.0.1:1510:80"
+  volumes:
+    - /hf17/challenges/crypto-2/web/:/var/www/html

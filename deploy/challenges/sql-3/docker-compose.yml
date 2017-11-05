@@ -1,0 +1,6 @@
+web:
+  image: img_sql-3
+  ports:
+    - "127.0.0.1:1513:80"
+  volumes:
+    - /hf17/challenges/sql-3/web/:/var/www/html

@@ -1,0 +1,6 @@
+web:
+  image: $(DOCKERFILE)
+  ports:
+    - "127.0.0.1:$(PORT):80"
+  volumes:
+    - $(CURRENT_FOLDER)/web/:/var/www/html

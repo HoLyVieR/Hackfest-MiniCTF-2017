@@ -1,0 +1,6 @@
+web:
+  image: img_serialization-1
+  ports:
+    - "127.0.0.1:1508:80"
+  volumes:
+    - /hf17/challenges/serialization-1/web/:/var/www/html
